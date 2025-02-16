@@ -1,0 +1,103 @@
+
+.header{
+    text-align: center;
+    background-color: #282c34;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.navbar-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+footer{
+   background-color: #282c34;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    
+}
+.play{
+text-align: center;
+
+}
+.btn{
+  background-color: aquamarine;
+  background: url('https://cdn.vectorstock.com/i/preview-1x/60/27/baseball-batter-emoticon-vector-11716027.jpg')no-repeat center center;
+    background-color: #37374f; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Get elements to line up properly */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Add some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  transition: 0.3s; 
+  cursor: pointer;
+  border-radius: 12px;
+  font-size: 16px;
+  
+}
+.btn:hover{
+
+  transform: scale(1.1)
+}
+.score{
+ background: url('assets/oni.jpg');
+  text-align: center;
+  color: rgb(238, 9, 9);
+  margin-right: 40%;
+  margin-left: 40%;
+  margin-top: 30px;
+  padding: 5px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+}
+.score {
+  animation: fadeIn 2s ease-in-out;
+}
+.history{
+  color:white;
+  background-color: #090808;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.win{
+    text-align: center;
+    background: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExems3bjRhemVjeHBjeWd5Nm53amJ5ZW1zdTZkdzVwYTAwNzFsOWx6cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oFzlYH2EoqBg4llMQ/giphy.gif') no-repeat center center;
+    background-size: cover;
+    animation: bounce 1s infinite;
+    padding: 30px;
+    margin-top: 10px;
+   
+}
+
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
